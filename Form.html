@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Задать вопрос</title>
+  <link href="Reset.css" type="text/css" rel="stylesheet">
+  <link href="form.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+</head>
+<body>
+    <form action="https://digital-spectr.com/ac/academy.php" method="post">
+        <h1>Задать вопрос</h1>
+        <input class="field" type="text" name="name" placeholder="Фамилия Имя Отчество *" pattern="[А-Яа-яЁё\s\-]+" required>
+        <input class="field" type="tel" name="phone" placeholder="Телефон *" pattern="[0-9\s\-\+]+" required>
+        <input class="field" type="email" name="email" placeholder="Email" pattern="[A-Za-z]+\@[[A-Za-z]+\.[[A-Za-z]+">
+        <input class="button" type="submit" value="Отправить запрос">
+    </form>
+</body>
+</html>
